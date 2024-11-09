@@ -19,7 +19,7 @@ const Navbar = () => {
               <Link href="/bots" >
                 <p className="transition ease-in-out hover:-translate-y-1 duration-200 py-2 px-3">OUR BOTS</p>
               </Link>
-              
+              <p className="text-zinc-900 bg-red-500 py-2 px-3">THIS SITE IS WORK IN PROGRESS</p>
             </div>
             <button 
               onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
