@@ -6,7 +6,7 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-between">
                     <div className="w-full">
                         <h1 className="text-xl font-bold mb-2">Contact Us</h1>
-                        <p>contact@23521.dev</p>
+                        <p>WIP</p>
                     </div>
                 </div>
                 <div className="text-center mt-8">

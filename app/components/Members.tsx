@@ -13,7 +13,7 @@ const members = [
 
 const Members = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pr-6 md:pr-0 items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pr-0 items-center">
             {members.map((member, index) => (
                 <div key={index} className="w-full aspect-video border-2 p-4">
                     <div className="flex flex-row gap-4">
