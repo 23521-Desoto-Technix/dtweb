@@ -1,7 +1,7 @@
 import React from 'react';
 const Footer = () => {
     return (
-        <footer className="bg-zinc-900 text-white py-8">
+        <footer className="bg-zinc-900 text-white py-8 end">
             <div className="container mx-6 md:mx-auto">
                 <div className="flex flex-wrap justify-between">
                     <div className="w-full">

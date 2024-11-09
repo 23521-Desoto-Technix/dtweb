@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 
@@ -19,9 +21,12 @@ const Navbar = () => {
               </Link>
               
             </div>
-            <Link href="/contact" className="justify-self-end">
-              <p className="transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 justify-self-end">CONTACT US</p>
-            </Link>
+            <button 
+              onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
+              className="transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 justify-self-end"
+            >
+              CONTACT US
+            </button>
           </div>
         </div>
       </div>
