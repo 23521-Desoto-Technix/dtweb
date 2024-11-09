@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
             <button 
               onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
-              className="transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 justify-self-end w-full md:w-auto"
+              className="mt-2.5 md:mt-0 transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 justify-self-end w-full md:w-auto"
             >
               CONTACT US
             </button>
