@@ -20,7 +20,13 @@ const Navbar = () => {
               <Link href="/bots" >
                 <p className="transition ease-in-out hover:-translate-y-1 duration-200 py-2 px-3">OUR BOTS</p>
               </Link>
-              <p className="text-zinc-900 bg-red-500 py-2 px-3 animate-pulse">THIS SITE IS A WORK IN PROGRESS</p>
+              <p className="text-zinc-900 bg-red-500 py-2 px-3 animate-pulse mb-4 md:mb-0">THIS SITE IS A WORK IN PROGRESS</p>
+                {/* <Link href="/live">
+                <div className="flex items-center py-2 px-3 bg-white">
+                  <p className="text-zinc-900">LIVE</p>
+                  <span className="ml-2 h-3 w-3 bg-red-500 rounded-full animate-pulse"></span>
+                </div>
+                </Link> */}
             </div>
             <ContactUsButton />
           </div>
