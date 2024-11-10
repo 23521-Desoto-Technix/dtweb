@@ -1,7 +1,6 @@
 "use client"
 
 import Sponsors from "./components/Sponsors";
-import Members from "./components/Members";
 import Link from "next/link";
 import ContactUsButton from "./components/ContactUsButton";
 
