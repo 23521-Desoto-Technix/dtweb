@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import ContactUsButton from "./ContactUsButton";
 
 const Navbar = () => {
   return (
@@ -21,12 +22,7 @@ const Navbar = () => {
               </Link>
               <p className="text-zinc-900 bg-red-500 py-2 px-3 animate-pulse">THIS SITE IS A WORK IN PROGRESS</p>
             </div>
-            <button 
-              onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
-              className="mt-2.5 md:mt-0 transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 justify-self-end w-full md:w-auto"
-            >
-              CONTACT US
-            </button>
+            <ContactUsButton />
           </div>
         </div>
       </div>
