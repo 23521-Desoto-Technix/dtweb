@@ -3,6 +3,7 @@
 import Sponsors from "./components/Sponsors";
 import Link from "next/link";
 import ContactUsButton from "./components/ContactUsButton";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -22,15 +23,15 @@ export default function Home() {
           <p className="pb-5">
           We've released our INTO THE DEEP CAD files for you to use to reference! This robot has a 12in footprint, a dual claw transfer, and much more, we encourage you to take reference from this. NOTE: This is a work in progress and is subject to change.
           </p>
-          <div className="flex flex-col md:flex-row items-start pt-6 pr-4 md:pr-0">
-            <img src="https://picsum.photos/600/400" alt="INTO THE DEEP Robot" className="w-full h-auto" />
+            <div className="flex flex-col md:flex-row items-start pt-6 pr-4 md:pr-0">
+            <Image src="https://picsum.photos/600/400" alt="INTO THE DEEP Robot" className="w-full h-auto" width={600} height={400} />
             <Link href="https://www.example.com" className="transition ease-in-out hover:bg-white duration-200 text-white hover:text-zinc-900 border-2 border-white py-2 px-3 flex items-center mt-5 md:mt-0 md:ml-5">
               Onshape Document
               <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M7 17L17 7M7 7h10v10" />
+              <path d="M7 17L17 7M7 7h10v10" />
               </svg>
             </Link>
-          </div>
+            </div>
         </div>
       </div>
     </div>
