@@ -21,7 +21,7 @@ export default function Home() {
         <div className="py-6">
           <h2 className="text-3xl pb-5">INTO THE DEEP Robot</h2>
           <p className="pb-5">
-          We've released our INTO THE DEEP CAD files for you to use to reference! This robot has a 12in footprint, a dual claw transfer, and much more, we encourage you to take reference from this. NOTE: This is a work in progress and is subject to change.
+          We&apos;ve released our INTO THE DEEP CAD files for you to use to reference! This robot has a 12in footprint, a dual claw transfer, and much more, we encourage you to take reference from this. NOTE: This is a work in progress and is subject to change.
           </p>
             <div className="flex flex-col md:flex-row items-start pt-6 pr-4 md:pr-0">
             <Image src="https://picsum.photos/600/400" alt="INTO THE DEEP Robot" className="w-full h-auto" width={600} height={400} />
