@@ -25,7 +25,7 @@ export default function RootLayout({
       >
         <div className=" font-JetBrainsMono">
           <Navbar />
-          <div className="container mx-6 md:mx-auto text-white">
+          <div className="container mx-6 md:mx-auto text-white mr-6">
             {children}
           </div>
           <Footer />
