@@ -9,6 +9,7 @@ const members = [
     { name: 'Raymond', role: 'CAD + Mechanical', bio: "Lorem ipsum doler sait", mentor: false },
     { name: 'Joe Ricker', role: 'Mentor + Team Admin', bio: "Lorem ipsum doler sait", mentor: true },
     { name: 'Alison Ricker', role: 'Team Admin', bio: "Lorem ipsum doler sait", mentor: true },
+    { name: 'Baylor Weathers', role: 'Software Mentor', bio: "Lorem ipsum doler sait", mentor: true },
 ];
 
 const Members = () => {
