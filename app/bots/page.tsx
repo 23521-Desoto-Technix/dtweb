@@ -29,8 +29,8 @@ const RobotsPage = () => {
     ];
 
     return (
-        <div className="p-4">
-            <h1 className="text-2xl font-bold mb-4">Our Robots</h1>
+        <div className="py-10">
+            <h1 className="text-4xl font-bold mb-4">Our Robots</h1>
             <p className="mb-6">Welcome to the robots page. Here you can find information about our robots.</p>
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
                 {robots.map((robot, index) => (
