@@ -1,15 +1,14 @@
 
 const members = [
-    { name: 'Nathan', role: 'Captain', bio: "Lorem ipsum doler sait", mentor: false},
-    { name: 'Hudson', role: 'Software + CAD', bio: "Lorem ipsum doler sait", mentor: false },
-    { name: 'Sebastian', role: 'CAD + Mechanical', bio: "Lorem ipsum doler sait", mentor: false },
-    { name: 'Emelia', role: 'Portfolio + Software', bio: "Lorem ipsum doler sait", mentor: false },
-    { name: 'Stephan', role: 'Portfolio', bio: "Lorem ipsum doler sait", mentor: false },
-    { name: 'Jayden', role: 'Portfolio', bio: "Lorem ipsum doler sait", mentor: false },
-    { name: 'Raymond', role: 'CAD + Mechanical', bio: "Lorem ipsum doler sait", mentor: false },
+    { name: 'Nathan', role: 'Captain', bio: "Nathan is a junior in high school and is the team captain and design lead.", mentor: false },
+    { name: 'Hudson', role: 'Software + CAD', bio: "Hudson is a sophomore in high school and is the software lead as well as being on the design team.", mentor: false },
+    { name: 'Sebastian', role: 'CAD + Mechanical', bio: "Sebastian is in 7th grade and is on the design and assembly teams.", mentor: false },
+    { name: 'Emelia', role: 'Portfolio + Software', bio: "Emelia is a [idk] in high school and is the portfolio lead as well as being on the software team.", mentor: false },
+    { name: 'Stephan', role: 'Portfolio', bio: "Stephan is a [idk] in high school and is on the portfolio team.", mentor: false },
+    { name: 'Jayden', role: 'Portfolio + Mechanical', bio: "Jayden is a [idk] in high school and is on the portfolio and assembly teams.", mentor: false },
+    { name: 'Raymond', role: 'CAD + Mechanical', bio: "Raymond is a [idk] in high school and is on the portfolio and assembly teams.", mentor: false },
     { name: 'Joe Ricker', role: 'Mentor + Team Admin', bio: "Lorem ipsum doler sait", mentor: true },
     { name: 'Alison Ricker', role: 'Team Admin', bio: "Lorem ipsum doler sait", mentor: true },
-    { name: 'Baylor Weathers', role: 'Software Mentor', bio: "Lorem ipsum doler sait", mentor: true },
 ];
 
 const Members = () => {
