@@ -1,9 +1,9 @@
 
 const members = [
     { name: 'Nathan', role: 'Captain', bio: "Nathan is a junior in high school and is the team captain and design lead.", mentor: false },
-    { name: 'Hudson', role: 'Software + Design', bio: "Hudson is a sophomore in high school and is the software lead as well as being on the design team.", mentor: false },
+    { name: 'Hudson', role: 'Software + Design', bio: "Hudson is a sophomore in high school and is the software lead and is also on the design team.", mentor: false },
     { name: 'Sebastian', role: 'Design + Build', bio: "Sebastian is in 7th grade and is on the design and build teams.", mentor: false },
-    { name: 'Emelia', role: 'Portfolio + Software', bio: "Emelia is a sophomore in high school and is the portfolio lead as well as being on the software team.", mentor: false },
+    { name: 'Emelia', role: 'Portfolio + Software', bio: "Emelia is a sophomore in high school and is the portfolio lead and is also on the software team.", mentor: false },
     { name: 'Stephan', role: 'Portfolio', bio: "Stephan is a sophomore in high school and is on the portfolio team.", mentor: false },
     { name: 'Jayden', role: 'Portfolio + Build', bio: "Jayden is a sophomore in high school and is on the portfolio and build teams.", mentor: false },
     { name: 'Raymond', role: 'Design + Mechanical', bio: "Raymond is a sophomore in high school and is on the design and build teams.", mentor: false },
