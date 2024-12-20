@@ -1,28 +1,30 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from '../components/Button';
+import CS from '../../public/IMG_5497.jpg';
+import off24 from '../../public/IMG_5498.jpg';
+import ITD from '../../public/FullSizeRender.jpg';
 
 const RobotsPage = () => {
     const robots = [
         {
-            name: 'INTO THE DEEP bot',
-            image: 'https://picsum.photos/300/200',
-            description: 'Description of Alpha',
-            link: "itd",
-            hasPage: true
+            name: 'Depth Charge',
+            image: ITD,
+            description: 'Depth Charge is our robot for the 2024-2025 INTO THE DEEP game, and is completly designed in CAD before it was built.',
+            link: ""
         },
         {
             name: '2024 Offseason bot',
-            image: 'https://picsum.photos/300/200',
-            description: 'Description of Beta',
-            hasPage: false
+            image: off24,
+            description: 'The 2024 offseason bot is a drivebase that we built to experiment with custom manufacturing during the offseason.',
+            hasPage: false,
+            link: ""
         },
         {
-            name: 'CENTERSTAGE bot',
-            image: 'https://picsum.photos/300/200',
-            description: 'Description of Gamma',
-            link: "cs",
-            hasPage: true
+            name: 'Fred',
+            image: CS,
+            description: 'Depth Charge is our robot for the 2023-2024 CENTERSTAGE game, and is a heavily modified REV starter bot.',
+            link: "",
         }
     ];
 
@@ -34,9 +36,9 @@ const RobotsPage = () => {
                 {robots.map((robot, index) => (
                     <div key={index} className="border-2 border-gray-300 shadow-md p-4 pb-6">
                         <h2 className="text-xl font-semibold mb-2">{robot.name}</h2>
-                        <Image src={robot.image} width={300} height={200} className="mb-2 w-full h-auto" alt={robot.name} />
-                        <p className="mb-4">{robot.description}</p>
-                        {robot.link != null && (
+                        <Image src={robot.image} width={300} height={200} className="mb-2 w-full" alt={robot.name} />
+                        <p className="">{robot.description}</p>
+                        {robot.link != ""&& (
                             <Button href={`/bots/${robot.link.toLowerCase()}`} text="MORE INFO" />
                         )}
                     </div>
