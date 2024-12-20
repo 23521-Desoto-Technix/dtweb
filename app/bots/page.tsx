@@ -23,7 +23,7 @@ const RobotsPage = () => {
         {
             name: 'Fred',
             image: CS,
-            description: 'Depth Charge is our robot for the 2023-2024 CENTERSTAGE game, and is a heavily modified REV starter bot.',
+            description: 'Fred is our robot for the 2023-2024 CENTERSTAGE game, and is a heavily modified REV starter bot.',
             link: "",
         }
     ];
