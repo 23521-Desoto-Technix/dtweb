@@ -5,10 +5,10 @@ import ContactUsButton from "./components/ContactUsButton";
 import Image from "next/image";
 import Button from "./components/Button";
 import i1 from '../public/hpimages/1.jpg'
-import i2 from '../public/hpimages/2.jpg'
+//import i2 from '../public/hpimages/2.jpg'
 import i3 from '../public/hpimages/3.jpg'
 import i4 from '../public/hpimages/4.jpg'
-import i5 from '../public/hpimages/5.jpg'
+//import i5 from '../public/hpimages/5.jpg'
 
 export default function Home() {
   return (
@@ -28,10 +28,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { src: i1, alt: '' },
-              { src: i2, alt: '' },
+              //{ src: i2, alt: '' },
               { src: i3, alt: '' },
               { src: i4, alt: '' },
-              { src: i5, alt: '' },
+              //{ src: i5, alt: '' },
               // Add more images as needed
             ].map((image, index) => (
               <Image
