@@ -24,7 +24,7 @@ export default function Home() {
           We&apos;ve released our INTO THE DEEP CAD files for you to use to reference! This robot has a 12in footprint, a dual claw transfer, and much more, we encourage you to take reference from this. NOTE: This is a work in progress and is subject to change.
           </p>
             <div className="flex flex-col md:flex-row items-start pt-6 pr-4 md:pr-0">
-            <Image src="https://picsum.photos/600/400" alt="INTO THE DEEP Robot" className="w-full h-auto" width={600} height={400} />
+            <Image src="https://picsum.photos/2400/1600" alt="INTO THE DEEP Robot" className="w-full h-auto" width={1200} height={800} />
             <Button href="https://cad.onshape.com/documents/a75e769b57bc2e68fa3aafa7/w/5e9868ec14d7d8fe35bb5ab4/e/48f189dcadc17fa2296ea9b6" className="flex items-center ml-5">Onshape Document
                 <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="butt" strokeLinejoin="miter">
                 <path d="M7 17L17 7M7 7h10v10" />
