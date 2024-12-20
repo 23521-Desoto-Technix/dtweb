@@ -39,7 +39,7 @@ const RobotsPage = () => {
                         <Image src={robot.image} width={300} height={200} className="mb-2 w-full" alt={robot.name} />
                         <p className="">{robot.description}</p>
                         {robot.link != ""&& (
-                            <Button href={`/bots/${robot.link.toLowerCase()}`} text="MORE INFO" />
+                            <Button href={`/bots/${robot.link.toLowerCase()}`}>MORE INFO</Button>
                         )}
                     </div>
                 ))}
