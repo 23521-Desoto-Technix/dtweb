@@ -5,21 +5,23 @@ import Button from '../components/Button';
 const RobotsPage = () => {
     const robots = [
         {
-            name: 'Alpha',
+            name: 'INTO THE DEEP bot',
             image: 'https://picsum.photos/300/200',
             description: 'Description of Alpha',
+            link: "itd",
             hasPage: true
         },
         {
-            name: 'Beta',
+            name: '2024 Offseason bot',
             image: 'https://picsum.photos/300/200',
             description: 'Description of Beta',
             hasPage: false
         },
         {
-            name: 'Gamma',
+            name: 'CENTERSTAGE bot',
             image: 'https://picsum.photos/300/200',
             description: 'Description of Gamma',
+            link: "cs",
             hasPage: true
         }
     ];
@@ -34,8 +36,8 @@ const RobotsPage = () => {
                         <h2 className="text-xl font-semibold mb-2">{robot.name}</h2>
                         <Image src={robot.image} width={300} height={200} className="mb-2 w-full h-auto" alt={robot.name} />
                         <p className="mb-4">{robot.description}</p>
-                        {robot.hasPage && (
-                            <Button href={`/bots/${robot.name.toLowerCase()}`} text="MORE INFO" />
+                        {robot.link != null && (
+                            <Button href={`/bots/${robot.link.toLowerCase()}`} text="MORE INFO" />
                         )}
                     </div>
                 ))}
