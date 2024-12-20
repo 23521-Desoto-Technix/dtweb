@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
        className={jetbrains_mono.className + " bg-zinc-900"}
       >
-        <div className=" font-JetBrainsMono w-screen">
+        <div className=" font-JetBrainsMono">
           <Navbar />
           <div className="container mx-6 md:mx-auto text-white mr-6">
             {children}
