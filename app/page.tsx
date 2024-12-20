@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className="pr-6 md:pr-0 box-content">
-        <h1 className="text-6xl py-10 font-bold">DeSoto Technix</h1>
+        <h1 className="text-6xl py-10 font-bold">DeSoto Technix 23521</h1>
         <p className="pb-10">DeSoto Technix is a team dedicated to creating competitive robots for the <i>FIRST</i> Tech Challenge, as well as sharing our love of STEM with our community.</p>
         <Button href="/about">LEARN MORE</Button>
         <h1 className="text-4xl py-10 pb-5">Sponsors</h1>
