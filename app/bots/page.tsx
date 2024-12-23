@@ -10,7 +10,7 @@ const RobotsPage = () => {
         {
             name: 'Depth Charge',
             image: ITD,
-            description: 'Depth Charge is our robot for the 2024-2025 INTO THE DEEP game, and is completly designed in CAD before it was built.',
+            description: 'Depth Charge is our robot for the 2024-2025 INTO THE DEEP game, and was completely designed in CAD before it was built.',
             link: ""
         },
         {
