@@ -13,7 +13,7 @@ import i4 from '../public/hpimages/4.jpg'
 export default function Home() {
   return (
     <div>
-      <div className="pr-6 md:pr-0 box-content">
+      <div className="">
         <h1 className="text-6xl py-10 font-bold">DeSoto Technix 23521</h1>
         <p className="pb-10">DeSoto Technix is a team dedicated to creating competitive robots for the <i>FIRST</i> Tech Challenge, as well as sharing our love of STEM with our community.</p>
         <Button href="/about">LEARN MORE</Button>
