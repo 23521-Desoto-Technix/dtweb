@@ -35,7 +35,7 @@ const RobotsPage = () => {
                 {robots.map((robot, index) => (
                     <div key={index} className="border-2 border-gray-300 shadow-md p-4 pb-6">
                         <h2 className="text-xl font-semibold mb-2">{robot.name}</h2>
-                        <Image src={robot.image} width={300} height={200} className="mb-2 w-full" alt={robot.name} />
+                        <Image src={robot.image} width={300} height={200} className="mb-2 w-full border-2 border-white p-1" alt={robot.name} />
                         <p className="">{robot.description}</p>
                         {robot.link != ""&& (
                             <Button href={`/bots/${robot.link.toLowerCase()}`}>MORE INFO</Button>
