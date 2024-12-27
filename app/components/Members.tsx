@@ -13,9 +13,9 @@ const members = [
 
 const Members = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pr-0 items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pr-0 items-start">
             {members.map((member, index) => (
-                <div key={index} className="w-full aspect-[3/1] border-2 p-4">
+                <div key={index} className="w-full aspect-[12/5] border-2 p-4">
                     <div className="flex flex-row gap-4">
                         <h1 className="text-xl">{member.name}</h1>
                         <h1 className={`text-lg text-zinc-900 px-2 ${member.mentor ? 'bg-blue-500' : 'bg-white'}`}>{member.role}</h1>
