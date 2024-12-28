@@ -11,7 +11,7 @@ const scoreurl = "";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full p-4 backdrop-blur-sm relative md:sticky top-0 border-b-2 border-white border-bottom">
+      <div className="w-full p-4 bg-zinc-900 relative md:sticky top-0 border-b-2 border-white border-bottom">
         <div className="container mx-auto h-full">
           <div className="flex justify-between items-center h-full flex-col md:flex-row">
             <div className="flex text-white md:flex-row flex-col block justify-items-center md:justify-items-start">

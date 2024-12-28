@@ -30,7 +30,8 @@ const RobotsPage = () => {
 
     return (
         <div className="py-10">
-            <h1 className="text-4xl font-bold mb-4">Our Robots</h1>
+            <h1 className="text-4xl font-bold">Our Robots</h1>
+            <p className='py-5'>For more info about our robots, you can contact our design lead at <a href="mailto:nathanricker44@gmail.com" className='hover:underline text-blue-500'>nathanricker44@gmail.com</a>, or DM @dragonhero1051 on discord.</p>
             <div className="grid gap-4 grid-cols-1 md:grid-cols-3">
                 {robots.map((robot, index) => (
                     <div key={index} className="border-2 border-gray-300 shadow-md p-4 pb-6">

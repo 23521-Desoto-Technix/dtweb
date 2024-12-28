@@ -30,7 +30,7 @@ export default function Home() {
               { src: i1, alt: '' },
               //{ src: i2, alt: '' },
               { src: i3, alt: '' },
-              { src: i4, alt: '' },
+              //{ src: i4, alt: '' },
               //{ src: i5, alt: '' },
               // Add more images as needed
             ].map((image, index) => (
