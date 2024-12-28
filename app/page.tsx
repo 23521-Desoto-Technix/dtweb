@@ -7,7 +7,7 @@ import Button from "./components/Button";
 import i1 from '../public/hpimages/1.jpg'
 //import i2 from '../public/hpimages/2.jpg'
 import i3 from '../public/hpimages/3.jpg'
-import i4 from '../public/hpimages/4.jpg'
+//import i4 from '../public/hpimages/4.jpg'
 //import i5 from '../public/hpimages/5.jpg'
 
 export default function Home() {
