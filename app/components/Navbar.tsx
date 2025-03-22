@@ -21,8 +21,11 @@ const Navbar = () => {
               <Link href="/about">
                 <p className="transition ease-in-out hover:-translate-y-1 duration-200 py-2 px-3">ABOUT US</p>
               </Link>
-              <Link href="/bots" >
+              <Link href="/bots">
                 <p className="transition ease-in-out hover:-translate-y-1 duration-200 py-2 px-3">OUR BOTS</p>
+              </Link>
+              <Link href="/donate">
+                <p className="transition ease-in-out hover:-translate-y-1 duration-200 py-2 px-3">DONATE</p>
               </Link>
               {liveurl && (
                 <Link href={liveurl}>
