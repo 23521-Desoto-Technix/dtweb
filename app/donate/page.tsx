@@ -7,7 +7,7 @@ const DonatePage: React.FC = () => {
             <h1 className="text-3xl font-bold">Support Our Cause</h1>
             <p className="my-4 text-lg">Your donation can make a big difference. Please consider supporting us through our GoFundMe page.</p>
             <Button 
-                href="https://www.gofundme.com/f/example-campaign" 
+                href="https://www.gofundme.com/f/Desoto-Technix-Robotics" 
                 className="mt-6"
             >
                 Donate Now
