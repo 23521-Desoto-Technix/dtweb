@@ -43,6 +43,7 @@ export default function Home() {
                 key={index}
                 src={image.src}
                 alt={image.alt}
+                placeholder="blur"
                 className="w-full h-auto border-2 border-white p-1"
                 width={300}
                 height={200}
