@@ -5,10 +5,14 @@ import ContactUsButton from "./components/ContactUsButton";
 import Image from "next/image";
 import Button from "./components/Button";
 import i1 from '../public/hpimages/1.jpg'
-//import i2 from '../public/hpimages/2.jpg'
 import i3 from '../public/hpimages/3.jpg'
-//import i4 from '../public/hpimages/4.jpg'
-//import i5 from '../public/hpimages/5.jpg'
+import mschamps01 from '../public/mschamps01.jpg'
+import mschamps02 from '../public/mschamps02.jpg'
+import mschamps03 from '../public/mschamps03.jpg'
+import mschamps04 from '../public/mschamps04.jpg'
+import mschamps05 from '../public/mschamps05.jpg'
+import mschamps06 from '../public/mschamps06.jpg'
+import mschamps07 from '../public/mschamps07.jpg'
 
 export default function Home() {
   return (
@@ -27,12 +31,15 @@ export default function Home() {
         <h2 className="text-3xl pb-5">23521 at competition</h2>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { src: i1, alt: '' },
-              //{ src: i2, alt: '' },
+              //{ src: i1, alt: '' },
+              { src: mschamps01, alt: '' },
+              { src: mschamps02, alt: '' },
+              { src: mschamps03, alt: '' },
+              { src: mschamps04, alt: '' },
+              { src: mschamps05, alt: '' },
+              { src: mschamps06, alt: '' },
+              { src: mschamps07, alt: '' },
               { src: i3, alt: '' },
-              //{ src: i4, alt: '' },
-              //{ src: i5, alt: '' },
-              // Add more images as needed
             ].map((image, index) => (
               <Image
                 key={index}
