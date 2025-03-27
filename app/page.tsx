@@ -12,6 +12,7 @@ import mschamps04 from '../public/mschamps04.jpg'
 import mschamps05 from '../public/mschamps05.jpg'
 import mschamps06 from '../public/mschamps06.jpg'
 import mschamps07 from '../public/mschamps07.jpg'
+import mschamps08 from '../public/mschamps08.jpg'
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
               { src: mschamps05, alt: '' },
               { src: mschamps06, alt: '' },
               { src: mschamps07, alt: '' },
+              { src: mschamps08, alt: '' },
               { src: i3, alt: '' },
             ].map((image, index) => (
               <Image
