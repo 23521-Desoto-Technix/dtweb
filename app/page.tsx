@@ -4,7 +4,6 @@ import Sponsors from "./components/Sponsors";
 import ContactUsButton from "./components/ContactUsButton";
 import Image from "next/image";
 import Button from "./components/Button";
-import i1 from '../public/hpimages/1.jpg'
 import i3 from '../public/hpimages/3.jpg'
 import mschamps01 from '../public/mschamps01.jpg'
 import mschamps02 from '../public/mschamps02.jpg'
@@ -31,7 +30,6 @@ export default function Home() {
         <h2 className="text-3xl pb-5">23521 at competition</h2>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              //{ src: i1, alt: '' },
               { src: mschamps01, alt: '' },
               { src: mschamps02, alt: '' },
               { src: mschamps03, alt: '' },
