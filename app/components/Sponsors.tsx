@@ -24,7 +24,7 @@ const sponsors: Sponsor[] = [
     { src: geneHaas, alt: 'Gene Haas Foundation', uri: "https://https://www.haascnc.com/index.html", key: 1, category: 'Diamond' },
     { src: nucor, alt: 'Nucor Steel', uri: "https://nucor.com/", key: 2, category: 'Gold' },
     { src: fabworks, alt: 'Fabworks', uri: "https://fabworks.com/", key: 3, category: 'Bronze' },
-    { src: tegra, alt: 'Tegra', uri: "https://tegra.com/", key: 4, category: 'Gold' },
+    { src: tegra, alt: 'Tegra', uri: "https://www.tegramedical.com/", key: 4, category: 'Gold' },
     { src: samsClub, alt: "Sam's Club", uri: "https://samsclub.com", key: 5, category: 'Silver' },
     { src: obms, alt: "Olive Branch", uri: "https://obms.us", key: 6, category: 'Silver' },
     { src: medtronic, alt: "Medtronic", uri: "https://medtronic.com", key: 7, category: 'Silver' },
