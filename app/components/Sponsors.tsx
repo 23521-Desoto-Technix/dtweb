@@ -54,7 +54,7 @@ const Sponsors: React.FC = () => {
                                                 alt={sponsor.alt}
                                             />
                                         ) : (
-                                            <div className="text-center text-3xl font-semibold text-wrap break-words text-3xl">
+                                            <div className="text-center font-semibold text-wrap break-words text-3xl">
                                                 {sponsor.textLogo}
                                             </div>
                                         )}
@@ -68,7 +68,7 @@ const Sponsors: React.FC = () => {
                                                 alt={sponsor.alt}
                                             />
                                         ) : (
-                                            <div className="text-center text-3xl font-semibold text-wrap break-words text-3xl">
+                                            <div className="text-center font-semibold text-wrap break-words text-3xl">
                                                 {sponsor.textLogo}
                                             </div>
                                         )}
