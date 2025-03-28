@@ -4,7 +4,7 @@ import geneHaas from '../../public/genehaaslogo.svg';
 import nucor from '../../public/nucorlogo.svg';
 import fabworks from '../../public/fabworks.svg';
 import tegra from '../../public/tegra.svg';
-import samsClub from '../../public/samsclub.svg';
+import samsClub from '../../public/samsClub.svg';
 import obms from '../../public/obms.svg';
 import medtronic from '../../public/medtronic.svg';
 import wsp from '../../public/wsp.svg';
@@ -30,7 +30,7 @@ const sponsors: Sponsor[] = [
     { src: medtronic, alt: "Medtronic", uri: "https://medtronic.com", key: 7, category: 'Silver' },
     { src: wsp, alt: "WSP", uri: "https://wsp.com", key: 8, category: 'Silver' },
     { src: ui, alt: "United Initiators", uri: "https://www.united-initiators.com/", key: 9, category: 'Bronze' },
-    { textLogo: "Tim Dickson Excavating", alt: "Tim Dickson Excavating", uri: "#", key: 10, category: 'Bronze' },
+    { textLogo: "Tim Dickson Excavating", alt: "Tim Dickson Excavating", uri: "", key: 10, category: 'Bronze' },
 ];
 
 const Sponsors: React.FC = () => {
@@ -45,19 +45,35 @@ const Sponsors: React.FC = () => {
                         {sponsors
                             .filter((sponsor) => sponsor.category === category)
                             .map((sponsor) => (
-                                <a href={sponsor.uri} key={sponsor.key} target="_blank" rel="noopener noreferrer">
-                                    {sponsor.src ? (
-                                        <Image
-                                            className="w-full h-auto max-h-40"
-                                            src={sponsor.src}
-                                            alt={sponsor.alt}
-                                        />
-                                    ) : (
-                                        <div className="text-center text-3xl font-semibold text-wrap break-words text-3xl">
-                                            {sponsor.textLogo}
-                                        </div>
-                                    )}
-                                </a>
+                                sponsor.uri ? (
+                                    <a href={sponsor.uri} key={sponsor.key} target="_blank" rel="noopener noreferrer">
+                                        {sponsor.src ? (
+                                            <Image
+                                                className="w-full h-auto max-h-40"
+                                                src={sponsor.src}
+                                                alt={sponsor.alt}
+                                            />
+                                        ) : (
+                                            <div className="text-center text-3xl font-semibold text-wrap break-words text-3xl">
+                                                {sponsor.textLogo}
+                                            </div>
+                                        )}
+                                    </a>
+                                ) : (
+                                    <div key={sponsor.key}>
+                                        {sponsor.src ? (
+                                            <Image
+                                                className="w-full h-auto max-h-40"
+                                                src={sponsor.src}
+                                                alt={sponsor.alt}
+                                            />
+                                        ) : (
+                                            <div className="text-center text-3xl font-semibold text-wrap break-words text-3xl">
+                                                {sponsor.textLogo}
+                                            </div>
+                                        )}
+                                    </div>
+                                )
                             ))}
                     </div>
                 </div>
